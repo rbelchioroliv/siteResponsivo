@@ -57,6 +57,10 @@ h2 {
     text-align: center;
 }
 
+section a img{
+    width: 50px;
+}
+
 /* Estilos do rodapé */
 footer {
     background-color: #333;
