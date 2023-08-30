@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Imperial+Script&display=swap');
+
+/* Estilos globais */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #000000;
+    color: #e1b813;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #f7db6d;
+    text-decoration: none;
+}
+
+
+
+/* Estilos do conteúdo */
+
+h1 {
+    margin: 0;
+    font-family: 'Imperial Script', cursive;
+}
+
+h2 {
+    font-family: Abhaya Libre;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav li:nth-child(2) {
+        padding: 10px;
+        border-top: 1px solid #f7ff84;
+        border-bottom: 1px solid #f7ff84;
+    }
+}
